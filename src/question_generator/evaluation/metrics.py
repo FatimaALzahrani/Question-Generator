@@ -1,5 +1,3 @@
-"""Evaluation metrics for question generation quality."""
-
 from typing import List, Dict, Any, Optional
 import numpy as np
 from collections import Counter
