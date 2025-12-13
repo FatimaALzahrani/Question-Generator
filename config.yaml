@@ -1,0 +1,31 @@
+models:
+  transformer:
+    model_name: "valhalla/t5-base-qg-hl"
+    max_length: 512
+    num_beams: 4
+    num_return_sequences: 3
+    temperature: 1.0
+    top_k: 50
+    top_p: 0.95
+    early_stopping: true
+
+  rule_based:
+    min_sentence_length: 10
+    max_questions_per_sentence: 3
+    question_types: ["what", "who", "when", "where", "why", "how"]
+
+preprocessing:
+  spacy_model: "en_core_web_sm"
+  max_tokens: 512
+  remove_stopwords: false
+  lowercase: false
+
+evaluation:
+  metrics: ["bleu", "rouge", "meteor", "bertscore"]
+  rouge_types: ["rouge1", "rouge2", "rougeL"]
+
+output:
+  format: "json"
+  include_confidence: true
+  include_answer_span: true
+  verbose: true
