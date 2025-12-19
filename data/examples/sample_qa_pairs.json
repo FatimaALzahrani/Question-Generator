@@ -1,0 +1,32 @@
+[
+  {
+    "context": "Paris is the capital and most populous city of France. With an estimated population of 2,165,423 residents as of 2019, in an area of more than 105 square kilometers, Paris is the 4th-largest city in the European Union.",
+    "questions": [
+      "What is the capital of France?",
+      "What is the population of Paris?",
+      "How large is Paris in square kilometers?",
+      "Where does Paris rank among European Union cities?"
+    ],
+    "answers": [
+      "Paris",
+      "2,165,423",
+      "105 square kilometers",
+      "4th-largest"
+    ]
+  },
+  {
+    "context": "The Eiffel Tower was constructed from 1887 to 1889 as the entrance arch to the 1889 World's Fair. It was initially criticized by some of France's leading artists and intellectuals for its design, but it has become a global cultural icon of France.",
+    "questions": [
+      "When was the Eiffel Tower constructed?",
+      "Why was the Eiffel Tower built?",
+      "What was the initial reaction to the Eiffel Tower?",
+      "What is the Eiffel Tower considered today?"
+    ],
+    "answers": [
+      "1887 to 1889",
+      "As the entrance arch to the 1889 World's Fair",
+      "It was criticized by artists and intellectuals",
+      "A global cultural icon of France"
+    ]
+  }
+]
